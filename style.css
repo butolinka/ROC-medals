@@ -1,0 +1,149 @@
+body{
+    background-image: url(olimp.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 15%;
+}
+input{
+    width: 30%;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #062743;
+    background-color: #E7EFF3;
+    border: none;
+    border-radius: 10px;
+    outline-style: none;
+}
+.container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.sport{
+    margin: 10px;
+    width: 200px;
+    height: 100%;
+    background-color: #E7EFF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+span{
+    display: none;
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    color: #062743;
+}
+h4{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: #062743;
+    
+}
+button{
+    background-color: #F9F9F9;
+    color: #113A5D;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: #062743;
+}
+.pic{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.gold{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    color: #062743;
+    margin: 10px;
+    background-color: #FFF9B0;
+
+}
+.silver{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    color: #062743;
+    margin: 10px;
+    background-color: #BBBBBB;
+}
+.bronze{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    color: #062743;
+    margin: 10px;
+    background-color: #CC9B6D;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media all and (max-width:800px){
+    .heading{
+        margin-top: 70px;
+        margin-left: 5px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    input{
+        width: 70%;
+    }
+    .container{
+        margin: 5px;
+    }
+    body{
+        background-image: url(olimp.jpg);
+        background-size: contain;
+    }
+
+}
+
+
+@media all and (max-width:500px){
+    .heading{
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    input{
+        width: 70%;
+        font-size: 18px;
+    }
+    .container{
+        margin: 5px;
+    }
+    body{
+        background-image: url(olimp.jpg);
+        background-size: contain;
+    }
+
+}
+
